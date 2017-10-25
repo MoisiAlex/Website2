@@ -1,0 +1,185 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+/*--- SET EVERYTHING UP ---*/
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+}
+
+body {
+    background-color:#f7f9f9;
+    color:#212121;
+    font-family: "Ubuntu",sans-serif;
+}
+
+/*--------------------------*/
+/*--- HEADER - logo + nav menu ---*/
+
+
+#logo{
+    display:block;
+    position:absolute;
+    z-index:1;
+    top:10px;
+    left:30px;
+    width: 80px;
+    height: 80px;
+    background: url(Files/Icons/demoLogo.png) center no-repeat;
+}
+
+/*--- MENU ---*/
+nav{
+    float: right;
+    padding:0 10px 0 0;
+}
+
+nav ul li{
+    display:inline-block;
+    float:left;
+    padding: 5px;
+ 
+}
+
+nav ul li a{
+    color:#212121;
+    text-decoration:none;
+
+}
+
+nav ul li a:hover{
+    color:#1CF1F1;
+}
+div.clear{
+     clear: both;
+}
+/*--------------------------*/
+/*Banner image--- */
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    
+}
+
+.banner-img{
+    max-height:650px;
+    height: auto;
+    width: auto; 
+    display:block;
+    opacity:0.8;
+    margin:auto;
+}
+
+/*--------------------------*/
+
+h1{
+    font-size:200%;
+    font-weight:700;
+    text-align: center;
+    padding:2% 0;
+   
+    color:#212121;
+}
+
+.wrapper-1{
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-gap: 3em;
+  -moz-column-gap: 3em;
+  column-gap: 3em;
+  background-color:#E9E9E9;
+}
+
+.container {
+ position: relative;
+  width: 100%;
+ 
+}
+
+.box{
+    width:150px;
+    height:180px;
+     position: relative;
+    margin:auto;
+    border: .2px solid #b4b4b4;
+}
+
+.wrapper-1 p{
+    text-align:center;
+    padding-top:72%;
+}
+
+
+.overlay{
+  position: absolute;
+  display: grid;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #1CF1F1;
+}
+
+
+.box:hover .overlay{
+    opacity: 0.95;
+}
+
+.text{
+    margin:auto;
+    color:#ffffff;
+    text-align:center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+     font-size:150%;
+    font-weight:700;
+}
+
+
+#web {
+    background: url('Files/Icons/internet.png') center no-repeat;
+    background-color:#ffffff;
+}
+
+#gear {
+    background: url('Files/Icons/settings.png') center no-repeat;
+    background-color:#ffffff;
+}
+
+   
+#thumbtak {
+    background: url('Files/Icons/push-pin.png') center no-repeat;
+    background-color:#ffffff;
+}
+/*--------Wrapper 2----------*/
+
+.wrapper-2{
+    height: 500px;
+  background-color:#ffffff;
+}
+
+
+
+
+/*--------Footer----------*/
+
+.footer{
+    background-color:#000000;
+}
+.footer h1{
+    color:#ffffff;
+}
+
+/*--------Media----------*/
+@media screen and (max-width: 760px) {
+    #logo {
+        display:none;
+    }
+
+
+}
