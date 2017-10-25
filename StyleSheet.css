@@ -13,6 +13,16 @@ body {
     font-family: "Ubuntu",sans-serif;
 }
 
+h1{
+    font-size:200%;
+    font-weight:700;
+    text-align: center;
+    padding:2% 0;
+   
+    color:#212121;
+}
+
+
 /*--------------------------*/
 /*--- HEADER - logo + nav menu ---*/
 
@@ -73,15 +83,6 @@ img {
 
 /*--------------------------*/
 
-h1{
-    font-size:200%;
-    font-weight:700;
-    text-align: center;
-    padding:2% 0;
-   
-    color:#212121;
-}
-
 .wrapper-1{
   -webkit-column-count: 3;
   -moz-column-count: 3;
@@ -123,7 +124,9 @@ h1{
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #1CF1F1;
+  background-color: #2e2e2e
+      
+      /* teal#1CF1F1;*/
 }
 
 
@@ -181,5 +184,12 @@ h1{
         display:none;
     }
 
-
+    .wrapper-1{
+     -webkit-column-count: 1;
+     -moz-column-count: 1;
+     column-count: 1;
+    }
+    .container{
+     margin-bottom: 10px;
+    }
 }
