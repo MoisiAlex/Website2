@@ -3,17 +3,19 @@
 <head>
     <title></title>
 	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+    <title>Yet another website </title>
 </head>
 <body>
 
     <div class="header">
              
         <a href="#" id="logo"></a>
-        
-        <nav>
+        <a href="#" id="menu"></a>
+        <nav id="nav-menu">
             <ul>
-                <li> <a href="Index.html">Home</a></li>
+                <li> <a href=#>Home</a></li>
                 <li> <a href=#>Projects</a></li>
                 <li> <a href=#">About</a></li>
                 <li> <a href=#">Contact</a></li>
@@ -22,7 +24,7 @@
         </nav>
         <div class="clear"></div>
         <div>
-            <img class="banner-img" src="Files/Images/ForestBanner.jpeg" />  
+            <img class="banner-img" src="Files/Images/forestBanner2.jpg" />  
         </div>
     </div>
 
@@ -36,9 +38,20 @@
               
                 <div class="box" id="web">
                     <div class="overlay">
-                        <div class="text"> Hello</div>
+                        <a href="websiteNotes.html">
+                            <div class="text white-text">
+                                <p>Building sites using:</p>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>JAVASCRIPT</li>
+                                </ul>
+                                <p class="bottom">Click for more</p>
+
+                            </div>
+                        </a>
                     </div>
-                    <p>Personal site</p>
+                    <p class="center">Personal site</p>
                 </div>
 
             </div>
@@ -47,21 +60,35 @@
  
                 <div class="box" id="gear">
                     <div class="overlay">
-                        <div class="text"> Hello</div>
+                        <div class="text white-text">
+                            <p>Random Code</p>
+                            <ul>
+                                <li>POWERSHELL</li>
+                                <li>C#</li>
+                                <li>PYTHON</li>
+                                
+                            </ul>
+                            <p class="bottom">Click for more</p>
+                        </div>
                     </div>
-                    <p>Code Snippets</p>
+                    <p class="center">Code Snippets</pclass="center">
                 </div>
             </div>
             <div class="container">
 
                 <div class="box" id="thumbtak"> 
                     <div class="box overlay">
-                        <div class="text"> Hello</div>
+                        <div class="text white-text"> 
+                            <p>Third Box</p>
+                            <p class="bottom">Click for more</p>
+                        </div>
+
                     </div>
-                    <p>Thumbnails</p>
+                    <p class="center">Thumbnails</p>
                 </div>
             </div>
             </div>
+
     </section>
 
     <section>
@@ -76,17 +103,30 @@
     </section>
 
     <section class="footer">
-        <h1> Footer & other stuff </h1>
-        <div class="contact">
-            <p>Here is where I will add details on how to contact me. Like the best way to get ahold of me would be just calling</p>
-            <p>Some other details are here in a new paragaph</p>
+        <h1 class="white-text"> Footer & other stuff </h1>
+        <div class="wrapper-3">
+            <div class="footer-contact">
+                <p>Here is a paragraph of text that can contain anything really, maybe links or contact data not sure yet</p>
+                <p>Some other details are here in a new paragaph</p>
+                <p>And of course one final paragraph to make sure things are really interesting</p>
 
-        </div>
+            </div>
 
-        <div class="Links">
-            <p>Here is where I will add Links or other such stuff, maybe a form to practice java. This is a wider box in order to keep things interesting.</p>
-            <p>Some other details are here in a new paragaph</p>
+            <div class="footer-form">
+             <form action="form.php" method="post">
+                 <fieldset>
+                     <legend> Enter data, press button, nothing happens:</legend>
+                     <input type="text" name="name" placeholder="Your name or alias"/> <br/>
+                     <input type="text" name="email" placeholder="Your e-mail" /><br />
+                     <textarea name="comments" rows="5" cols="30" placeholder="Your comments"> </textarea><br/>
+                 <button><input type="submit" /></button>    
 
+
+                 </fieldset>
+
+             </form>
+
+            </div>
         </div>
     </section>
 
