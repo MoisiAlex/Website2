@@ -166,16 +166,46 @@ img {
   background-color:#ffffff;
 }
 
-
+.parallax {
+    /* The image used */
+    background-image: url('Files/Images/parallaxPhoto.jpg');
+    /* Set a specific height */
+    min-height: 300px;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 
 /*--------Footer----------*/
 
 .footer{
     background-color:#000000;
+    overflow:auto;
+    
 }
 .footer h1{
     color:#ffffff;
+}
+
+.contact{   
+    float:left;
+    width:200px;
+    padding:1em 1em 2em 15em;
+   
+}
+.footer p{
+    color:#ffffff;
+}
+
+.Links{
+    float: right;
+    width:400px;
+    padding:1em 15em 2em 1em;
+    
 }
 
 /*--------Media----------*/
