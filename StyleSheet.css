@@ -70,7 +70,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color:#1CF1F1;
+    color:#BCD7DC;
 }
 div.clear{
      clear: both;
@@ -122,12 +122,16 @@ img {
 
 .overlay{
   position: absolute;
-  top: 0;
+ top: 0;
   bottom: 0;
   left: 0;
-  right: 0;
-  height: 100%;
+  right: 0; 
+ /* height: 100%;
   width: 100%;
+ */
+  width: 150px;
+  height: 180px;
+  
   opacity: 0;
   transition: .5s ease;
   background-color: #2e2e2e
@@ -153,6 +157,7 @@ img {
     padding-top: 30%;
     padding-left: 12%;
     
+    
 }
 
 
@@ -177,10 +182,41 @@ img {
 }
 /*--------Wrapper 2----------*/
 
-.wrapper-2{
-    height: 500px;
-  background-color:#ffffff;
+.wrapper-2 {
+    
+    height: 600px;
+    background: url('Files/Icons/grid-tool.png');
+    background-attachment: fixed;
+    padding:50px;
 }
+
+
+
+.about-box{
+    height:400px;
+    width:400px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:block;
+    border:1px solid #4F4F56;
+    margin:auto;
+ 
+    padding: 3% 1% 0 2%;
+}
+.about-box h3{
+    padding:3%;
+    text-transform:uppercase;
+}
+
+.about-box p:first-letter{
+    font-size: 34px;
+    float: left;
+}
+
+.about-box p:first-liner{
+    font-weight: bold;
+}
+
 
 .parallax {
     /* The image used */
@@ -193,7 +229,17 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    margin: 10% 0 10% 0;
 }
+
+
+
+.wrapper-3{
+    height:200px;
+    background-color:#E9E9E9;
+}
+
 
 
 /*--------Footer----------*/
@@ -208,7 +254,7 @@ img {
 
 
 
-.wrapper-3::after {
+.wrapper-4::after {
     content: "";
     clear: both;
     display: table;
@@ -228,7 +274,35 @@ img {
 
 .footer-form{
     width: 60%;
+    
 }
+
+.footer-half{
+    width: 50%;
+    padding:0;
+}
+fieldset{
+     border: 1px groove white;
+}
+ input[type="text"]{
+     width: 100%;
+     margin-bottom:1%;
+ }
+
+ textarea{
+     width: 100%;
+ }
+ input[type="submit"]{
+     width: 90px;
+     
+     float:right;
+ }
+
+  input[type="submit"]:hover{
+
+     background-color:#BCD7DC;
+
+ }
 
 /*--------Media----------*/
 @media only screen and (max-width: 760px) {
