@@ -6,7 +6,7 @@
 	<meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="StyleSheet.css">
-    <link href="StyleSheet-Notes.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="StyleSheet-Notes.css">
 </head>
 <body>
 
@@ -31,35 +31,94 @@
 
     <!---end header-->
 
+
+
     <h1> Notes on building a website</h1>
-    <div class="container">
-        <div class="prompt">
-            <p>Prompt:</p>
-            <ul>
-                <li> Build a portfolio website that can showcase HTML CSS and Javascript knowledge</li>
-                <li> Do not use a popular framework like bootstrapper</li>
-                <li> It must be interactive, load quickly and look modern (make use of parallax, multy-column layout, responsive)</li>
-                <li> Must work on mobile </li>
-                <li> If something seems tough, do it</li>
-            </ul>
+
+
+    <section>
+
+        <div class="wrapper-2">
+            <div class="project-box">
+                <h3> Personal website</h3>
+
+                <div class="container">
+                    <div class="notes">
+                        <p>Goal:</p>
+                        <ul>
+                            <li> Portfolio website showcasing HTML CSS and Javascript knowledge</li>
+                            <li> Built from scratch (no bootstrapper)</li>
+                            <li> Interactive, fast, modern (use parallax bg, multi-column layout, responsive)</li>
+                            <li> If something seems tough, look it up and do it</li>
+                        </ul>
+
+
+                        <p>
+                            While I had worked with HTML in some form for years, a lot of my experience was based on using a framework like Bootstrapper or modifying a web template to suit my needs.
+                            In order to learn more about concepts like the box model, inheritance and HMTL5 I decided to write my own portfolio website from scratch.
+                        </p>
+                        <p>
+                            I started by wireframing what I wanted the site to look like and setting out the goals of the project. 
+                            In the first phase I decided to only focus on HTML and CSS and reformat periodically as I learned new skills. 
+                            After a few mock-ups I decided on a simple clean look, with a large header and a few 2 & 3 column sections.
+                            Along the way I decided to try out two different approaches to styling a multi-column layout: the projects section makes use of the columns css property while the footer 
+                            makes use of a grid view. 
+                            The next steps will be investigating flex box and maybe a more robust grid system. 
+                            
+                        <p>
+                    </div>
+
+                    <div class="photo">
+                        <img src="Files/Images/wireframe.jpg" />
+
+                        <img src="Files/Images/Website.png" />
+                        <img src="Files/Images/Website2.png" />
+                        <img src="Files/Images/Website3.png" />     
+                    </div>
+                </div>
+                <p></p>
+            </div>
+
+            <div class="project-box">
+                <h3> Project Odin: Google homepage</h3>
+
+                <div class="container">
+
+                    <div class="photo">
+                        <img src="Files/Images/Google.png" />
+                    </div>
+
+                    <div class="notes">
+                        <p>Goal:</p>
+                        <ul>
+                            <li> Learn Git and store project on github</li>
+                            <li> Built from scratch the Google homepage</li>
+                        </ul>
+
+
+                        <p>
+                           I really liked<a href="https://www.theodinproject.com" target="_blank">the Odin Project </a> approach to learning and decided to follow along with their curriculum.
+                        </p>
+                        <p>
+                            One of the first projects is building a basic mock-up of the google homepage, while making sure the project is properly saved on github.
+                            I also made sure to add my solution to the contributor’s page of the Odin project repository. Overall an interesting exercise in cloning, forking and general usage of git.
+                            The html and CSS aspect wasn't too difficult, although it gave me an opportunity to play around with styling forms and positioning items. The search bar itself was probably
+                            the most interesting/ challenging part as it involved carefully positioning an image and having a "hint" hover over. I'm sure jquery could have handled it easier,
+                            but I wanted to stick with pure HTML and CSS for this project.
+                        <p>
+                            <p>
+                                The actual link to the page: <a href="https://dracken2332.github.io/google-homepage/" target="_blank">https://dracken2332.github.io/google-homepage/</a>
+                            </p>
+                    </div>
+
+                  
+                </div>
+                <p></p>
+            </div>
+
         </div>
+    </section>
 
-
-        <div class="notes">
-
-            <p>
-                While I worked with html in some form or another for years most of the time when building a quick demo I'd resort to using a framework like Bootstrapper or modify a web template to suit my needs.
-                In order to learn more about HTML and CSS I decided to write my own portfolio website from scratch.
-            </p>
-            <p>
-                I started by looking at a few different ways to achieve a responsive easy to modify website,
-                the CSS makes use of two different approaches to styling a multi-column layout 1. the projects part makes use of the columns css property 2. the footer makes use of  a grid view
-
-                I started the project with a basic wire-frame. I wanted to have a simple clean look, with a few 2-3 column sections. 
-                The first prototype was based on some basic flat design tutorials
-                Refactored it to a more clean, simple look
-            <p>
-        </div>
-    </div>
+   
 </body>
 </html>
